@@ -1,0 +1,24 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+
+# ===== Virtual Environment =====
+flask-app/
+
+# ===== Environment Variables =====
+.env
+.env.*
+
+# ===== Flask =====
+instance/
+
+# ===== Database =====
+*.sqlite3
+
+# ===== Editor =====
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
