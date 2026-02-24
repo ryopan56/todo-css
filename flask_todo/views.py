@@ -7,7 +7,7 @@ from datetime import datetime, date
 from flask_todo import db
 import re
 
-bp = Blueprint('todo_app', __name__, url_prefix='')
+bp = Blueprint('todo_app', __name__, url_prefix='', static_folder='static', static_url_path='/static')
 
 
 # 初期画面はhome.htmlを表示させます
