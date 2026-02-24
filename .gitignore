@@ -8,6 +8,7 @@ flask-app/
 # ===== Environment Variables =====
 .env
 .env.*
+!.env.example
 
 # ===== Flask =====
 instance/
